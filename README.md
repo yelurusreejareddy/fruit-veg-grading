@@ -20,8 +20,10 @@ Color + texture features + a light classifier (k-NN / SVM).
 
 ## Quick start
 
+## Quick start
+
 ```bash
-### 1) (optional) new virtual env
+# 1) (optional) new virtual env
 python -m venv .venv && source .venv/bin/activate   # macOS/Linux
 # .venv\Scripts\activate                             # Windows
 
@@ -30,6 +32,7 @@ pip install numpy opencv-python scikit-image scikit-learn matplotlib tqdm jupyte
 
 # open the notebook
 jupyter notebook projectcode.ipynb
+---
 
 ## Expected data layout
 dataset/

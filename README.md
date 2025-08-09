@@ -31,11 +31,7 @@ pip install numpy opencv-python scikit-image scikit-learn matplotlib tqdm jupyte
 # open the notebook
 jupyter notebook projectcode.ipynb
 
-## **Expected data layout**
-
-markdown
-Copy
-Edit
+## Expected data layout
 dataset/
 ├─ Mango__good/
 ├─ Mango__bad/
@@ -43,7 +39,7 @@ dataset/
 └─ lemon__bad/
 Add your own fruit the same way, e.g. apple__good, apple__bad.
 
-## **How it works (short)**
+## How it works (short)
 - Load image and convert to HSV (stable color space for produce).
 - Color features — compact HSV histograms / masks to capture ripeness + discoloration.
 - Texture features — edge/entropy or simple local patterns to catch bruising/shriveling.
@@ -51,7 +47,7 @@ Add your own fruit the same way, e.g. apple__good, apple__bad.
 - Metrics — accuracy, precision/recall/F1, confusion matrix.
 - Predict — pass a path → get A or B.
 
-## **Reproduce (inside the notebook)**
+## Reproduce (inside the notebook)
 - Set DATA_DIR = "dataset" (or your path).
 - Run Pre-processing cells (resize if needed, HSV conversion).
 - Run Feature extraction cells to build the feature matrix.
@@ -59,17 +55,17 @@ Add your own fruit the same way, e.g. apple__good, apple__bad.
 - Run Evaluation to see metrics + confusion matrix.
 - Use the Predict cell to grade a single image.
 
-## **Tips**
+## Tips
 
 - Keep lighting/background consistent when collecting images.
 - If classes are imbalanced, use stratified splits and report macro-F1.
 - To support more than two grades, add folders like fruit__gradeC and update the label map.
 - Easy upgrades: histogram equalization, better texture descriptors, tiny CNN baseline for comparison.
 
-##** Paper / citation**
+## Paper / citation
 If you cite:
 Yeluru, Sreeja Reddy. "Fruit & Vegetable Grading using Classical Computer Vision."
 GitHub, 2025. https://github.com/yelurusreejareddy/fruit-veg-grading
 
-## **License**
+## License
 MIT — see LICENSE.

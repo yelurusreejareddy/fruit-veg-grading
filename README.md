@@ -40,4 +40,26 @@ Add your own fruit the same way, e.g. apple__good, apple__bad.
 - Metrics — accuracy, precision/recall/F1, confusion matrix.
 - Predict — pass a path → get A or B.
 
+## Reproduce (inside the notebook)
+- Set DATA_DIR = "dataset" (or your path).
+- Run Pre-processing cells (resize if needed, HSV conversion).
+- Run Feature extraction cells to build the feature matrix.
+- Pick the k-NN or SVM block and train.
+- Run Evaluation to see metrics + confusion matrix.
+- Use the Predict cell to grade a single image.
+
+## Tips
+
+- Keep lighting/background consistent when collecting images.
+- If classes are imbalanced, use stratified splits and report macro-F1.
+- To support more than two grades, add folders like fruit__gradeC and update the label map.
+- Easy upgrades: histogram equalization, better texture descriptors, tiny CNN baseline for comparison.
+
+## Paper / citation
+If you cite:
+Yeluru, Sreeja Reddy. "Fruit & Vegetable Grading using Classical Computer Vision."
+GitHub, 2025. https://github.com/yelurusreejareddy/fruit-veg-grading
+
+## License
+MIT — see LICENSE.
 

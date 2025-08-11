@@ -20,7 +20,7 @@ Color + texture features + a light classifier (k-NN / SVM).
 
 ## Quick start
 
-# Open the notebook
+## Open the notebook
 jupyter notebook projectcode.ipynb
 
 ## Expected data layout
@@ -31,3 +31,13 @@ dataset/
 - lemon__bad/
 
 Add your own fruit the same way, e.g. apple__good, apple__bad.
+
+## How it works (short)
+- Load image and convert to HSV (stable color space for produce).
+- Color features — compact HSV histograms / masks to capture ripeness + discoloration.
+- Texture features — edge/entropy or simple local patterns to catch bruising/shriveling.
+- Classifier — small k-NN or SVM.
+- Metrics — accuracy, precision/recall/F1, confusion matrix.
+- Predict — pass a path → get A or B.
+
+

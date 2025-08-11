@@ -19,15 +19,13 @@ Color + texture features + a light classifier (k-NN / SVM).
 ---
 
 ## Quick start
-
-```bash
-## (optional) new virtual env
-python -m venv .venv && source .venv/bin/activate   # macOS/Linux
-# .venv\Scripts\activate                             # Windows
-
-pip install -U pip
-pip install numpy opencv-python scikit-image scikit-learn matplotlib tqdm jupyter
-
 # open the notebook
 jupyter notebook projectcode.ipynb
 ---
+## Expected data layout
+dataset/
+├─ Mango__good/
+├─ Mango__bad/
+├─ lemon__good/
+└─ lemon__bad/
+Add your own fruit the same way, e.g. apple__good, apple__bad.

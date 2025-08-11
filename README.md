@@ -19,13 +19,14 @@ Color + texture features + a light classifier (k-NN / SVM).
 ---
 
 ## Quick start
+
 # open the notebook
 jupyter notebook projectcode.ipynb
----
+
 ## Expected data layout
 dataset/
-├─ Mango__good/
-├─ Mango__bad/
-├─ lemon__good/
-└─ lemon__bad/
+- Mango__good/
+- Mango__bad/
+- lemon__good/
+- lemon__bad/
 Add your own fruit the same way, e.g. apple__good, apple__bad.

@@ -38,7 +38,7 @@ Add your own fruit the same way, e.g. apple__good, apple__bad.
 - Texture features — edge/entropy or simple local patterns to catch bruising/shriveling.
 - Classifier — small k-NN or SVM.
 - Metrics — accuracy, precision/recall/F1, confusion matrix.
-- Predict — pass a path → get A or B.
+- Predict — pass a path -> get A or B.
 
 ## Reproduce (inside the notebook)
 - Set DATA_DIR = "dataset" (or your path).

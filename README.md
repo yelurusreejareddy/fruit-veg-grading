@@ -12,9 +12,9 @@ Color + texture features + a light classifier (k-NN / SVM).
 - [`projectcode.ipynb`](projectcode.ipynb) — end-to-end notebook (load → features → model → eval → predict)
 - [`dataset/`](dataset/) — sample images organized by class  
   - `Mango__good`, `Mango__bad`, `lemon__good`, `lemon__bad`
-- [Short paper](Sreeja%20Reddy,%20Yeluru%20final%20paper.pdf) — PDF with method and results
-- `README.md` — this file
-- `LICENSE` — MIT
+- [Short paper](Sreeja%20Reddy,%20Yeluru%20final%20paper.pdf) - PDF with method and results
+- `README.md` - this file
+- `LICENSE` - MIT
 
 ---
 

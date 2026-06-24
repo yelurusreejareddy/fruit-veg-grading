@@ -3,16 +3,16 @@
 A small, fast image processing pipeline that grades produce freshness into **two classes**:
 - **A** = good  
 - **B** = bad
-Color + texture features + a light classifier (k-NN / SVM).
+using color, texture, and edge features with a lightweight classifier.
 
 ---
 
 ## Repo contents
 
-- [`projectcode.ipynb`](projectcode.ipynb) — end-to-end notebook (load -> features -> model -> eval -> predict)
+- [`fruit_veg_grading_cv.ipynb`](fruit_veg_grading_cv.ipynb) — end-to-end notebook (load -> features -> model -> eval -> predict)
 - [`dataset/`](dataset/) — sample images organized by class  
   - `Mango__good`, `Mango__bad`, `lemon__good`, `lemon__bad`
-- [Short paper](Sreeja%20Reddy,%20Yeluru%20final%20paper.pdf) - PDF with method and results
+- project_report.pdf - PDF with method and results
 - `README.md` - this file
 - `LICENSE` - MIT
 

@@ -12,7 +12,7 @@ using color, texture, and edge features with a lightweight classifier.
 - [`fruit_veg_grading_cv.ipynb`](fruit_veg_grading_cv.ipynb) — end-to-end notebook (load -> features -> model -> eval -> predict)
 - [`dataset/`](dataset/) — sample images organized by class  
   - `Mango__good`, `Mango__bad`, `lemon__good`, `lemon__bad`
-- project_report.pdf - PDF with method and results
+- final_paper.pdf - PDF with method and results
 - `README.md` - this file
 - `LICENSE` - MIT
 

@@ -43,5 +43,5 @@ Yeluru, Sreeja Reddy. "Fruit & Vegetable Grading using Classical Computer Vision
 GitHub, 2025. https://github.com/yelurusreejareddy/fruit-veg-grading
 
 ## License
-MIT — see LICENSE.
+MIT, see LICENSE.
 
